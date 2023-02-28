@@ -1,0 +1,35 @@
+:root {
+    --dark-teal: rgb(25, 134, 102);
+    --normal-teal: rgb(32, 201, 151);
+    --light-teal: rgb(103, 202, 172);
+    --normal-trans-teal: rgba(32, 201, 151, 0.7);
+    --trans-teal: rgba(103, 202, 172, 0.5);
+    --light-trans-teal: rgba(103, 202, 172, 0.3);
+    --dark-gray: rgb(94, 94, 94);
+    --normal-gray: rgb(140, 140, 140);
+    --light-gray: rgb(187, 187, 187);
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--dark-gray);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
